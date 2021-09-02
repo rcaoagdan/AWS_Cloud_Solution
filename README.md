@@ -1,8 +1,8 @@
 # AWS Cloud Solution
 
 ## Team:
-* [Ray Caoagdan](https://github.com/rcaoagdan)
-* [Ben Podawiltz](https://github.com/benpodawiltz)
+* Ray Caoagdan | [Linkedin](https://www.linkedin.com/in/raymond-caoagdan-666191206/) | [Github](https://github.com/rcaoagdan) 
+* Ben Podawlitz| [Linkedin](https://www.linkedin.com/in/benpodawiltz) | [Github](https://github.com/benpodawiltz)
 
 ## Project Guidelines
 [Ops 401 Midterm Project Guidelines](https://github.com/codefellows/seattle-ops-cyber-401n1/blob/main/class-20/project-guidelines.md)
