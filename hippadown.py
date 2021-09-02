@@ -6,7 +6,7 @@
 # The purpose of this code, is to demonstrate an attempted attack, with the goal 
 # of HIPPA Data Exfiltration.
 
-# All testing was done on a conrtolled enviorment to show SIEM event being
+# All testing was done on a conrtolled enviorment to show a SIEM event being
 # triggered.
 
 # Only use this code on an enviorment you own.
