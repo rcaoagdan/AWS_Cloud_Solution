@@ -7,6 +7,9 @@
 ## Project Guidelines
 * [Ops 401 Midterm Project Guidelines](https://github.com/codefellows/seattle-ops-cyber-401n1/blob/main/class-20/project-guidelines.md)
 
+## Documentation
+* [Slide Deck](https://docs.google.com/presentation/d/1YbV_sRDc0HArj8wsM8ZtLYIXoBYiwn2JtoION6wkDF0/edit?usp=sharing)
+
 ## Project Description
 
 ***Scenario A: Xealth (HIPAA)***
