@@ -40,3 +40,7 @@ Due to a recent audit, a number of internal processes and systems were found to 
     * Implement a DLP solution of your choosing on a transport protocol of your choosing
     * Configured to detect and prevent the exfiltration of HIPAA data classes from the Windows Server
     * Sincerely, Julia Chi, CTO Xealth
+
+## Documentation
+WIP
+
