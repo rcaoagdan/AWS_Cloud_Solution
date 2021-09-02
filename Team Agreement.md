@@ -1,6 +1,6 @@
- Team Members
- Ray Caoagdan
-Ben Podawiltz
+# Team Members
+* Ray Caoagdan
+* Ben Podawiltz
 
 # Cooperation Plan
 
