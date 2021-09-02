@@ -42,5 +42,4 @@ Due to a recent audit, a number of internal processes and systems were found to 
     
 - Sincerely, Julia Chi, CTO Xealth
 
-## Documentation
-* **Team Agreement:** How Team Deals with Conlfict
+
