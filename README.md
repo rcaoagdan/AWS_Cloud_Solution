@@ -4,6 +4,9 @@
 * [Ray Caoagdan](https://github.com/rcaoagdan)
 * [Ben Podawiltz](https://github.com/benpodawiltz)
 
+## Project Guidelines
+[Ops 401 Midterm Project Guidelines](https://github.com/codefellows/seattle-ops-cyber-401n1/blob/main/class-20/project-guidelines.md)
+
 ## Project Description
 
 ***Scenario A: Xealth (HIPAA)***
