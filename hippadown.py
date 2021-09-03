@@ -3,8 +3,8 @@
 ##############################################################################
 #                          !!!!!!DISCLAIMER!!!!!!                            # 
 ##############################################################################
-# The purpose of this code, is to demonstrate an attempted attack, with the goal 
-# of HIPPA Data Exfiltration.
+# The purpose of this code, is to demonstrate an attempted attack, with the 
+# goal of HIPPA Data Exfiltration.
 
 # All testing was done on a conrtolled enviorment to show a SIEM event being
 # triggered.
@@ -13,8 +13,10 @@
 
 # PLEASE DO NOT USE THIS CODE FOR NEFARIOUS PURPOSES.
 
+# We do not condone using this for malicious purpose, and are not responsible
+# if you are caught using our code for malicious purposes.
 ##############################################################################
-#                                                                            #
+#                               Dogma Inc.                                   #                                     
 ##############################################################################
 
 ##############################################################################
