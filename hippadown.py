@@ -33,9 +33,9 @@ import random
 ##############################################################################
 # Global Variables                                                           #
 ##############################################################################
-awsUser = 'STRUSR'
-awsPass= 'STRPASS'
-mfa=random.randrange(6)
+awsUser = 'AWSUSER'
+awsPass= 'AWSPASS'
+mfa=random.randint(000000,999999)
 browser = webdriver.Chrome()
 
 browser.get(('https://signin.aws.amazon.com/oauth?redirect_uri=https%3A%2F%2Fconsole.aws.amazon.com%2Fconsole%2Fhome%3Ffromtb%3Dtrue%26hashArgs%3D%2523%26isauthcode%3Dtrue%26nc2%3Dh_ct%26src%3Dheader-signin%26state%3DhashArgsFromTB_us-east-1_e4cc052dab26faea&client_id=arn%3Aaws%3Asignin%3A%3A%3Aconsole%2Fcanvas&response_type=code&iam_user=true&account=792776145833&code_challenge=IoJhzC-enuflfxE2TK-agHV6C2uDyjfn7NUKTma9Tmo&code_challenge_method=SHA-256&remember_account=false'))
