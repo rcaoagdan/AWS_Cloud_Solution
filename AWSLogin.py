@@ -36,8 +36,8 @@ import time
 ##############################################################################
 # Global Variables                                                           #
 ##############################################################################
-awsUser = 'Ray_Caoagdan' # known username
-awsPass= 'Filipino253!' #known password
+awsUser = 'AWSUSER' # known username
+awsPass= 'AWSPASS' # known password
 mfa=random.randint(000000,999999) # generate random 6 digit number for MFA authentication
 browser = webdriver.Chrome()
 
@@ -45,7 +45,7 @@ browser.get(('https://signin.aws.amazon.com/oauth?redirect_uri=https%3A%2F%2Fcon
 # known login page
 
 ##############################################################################
-# Global Variables                                                           #
+# Functions                                                                  #
 ##############################################################################
 def awsConsole():
     username = browser.find_element_by_id('username')
