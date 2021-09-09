@@ -59,10 +59,14 @@ def ListBuckets():
 def DownloadfrBucket():
     print(" ")
     DLbucket=str(input("What bucket do you want to DL from:"))
-    targetFile=str(input("What are we DL: "))
-    targetFolder=str(input("Folder: "))
-    s3.meta.client.download_file(DLbucket,targetFile,targetFolder)
-
+    targetbucket=s3.Bucket(DLbucket)
+    
+    for s3_object in targetbucket.objects.all():
+        targetbucket.download_file(s3_object.key, filename_with_extension)
+        path, filename = os.path.split(s3_object.key)
+        os.makedirs(path)
+        targetbucket.download_file(s3_object.key, path/filename)
+    
 ##############################################################################
 # Main                                                                       #
 ##############################################################################
