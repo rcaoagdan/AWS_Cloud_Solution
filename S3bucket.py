@@ -34,8 +34,8 @@ from botocore.exceptions import ClientError
 ##############################################################################
 s3 = boto3.client('s3',
                   region_name = 'us-west-1',
-                  aws_access_key_id = "AWSUSER,"
-                  aws_secret_access_key ="AWSPASS")
+                  aws_access_key_id = "AWSUSER,
+                  aws_secret_access_key ="AWSPASS)
 
 
 ########
@@ -61,25 +61,11 @@ def ListBuckets():
 def DownloadfrBucket():
     print(" ")
     DLbucket=str(input("What bucket do you want to DL from:"))
-<<<<<<< HEAD
     targetFile=str(input("What are we DL: "))
     targetFolder=str(input("Folder: "))
-    try:
-        s3.download_file(DLbucket,targetFile,targetFolder)
-    except ClientError as e:
-        logging.errror(e)
-        print ("Permission Denied")
+    s3.download_file(DLbucket,targetFile,targetFolder)
 
-=======
-    targetbucket=s3.Bucket(DLbucket)
-    
-    for s3_object in targetbucket.objects.all():
-        targetbucket.download_file(s3_object.key, filename_with_extension)
-        path, filename = os.path.split(s3_object.key)
-        os.makedirs(path)
-        targetbucket.download_file(s3_object.key, path/filename)
-    
->>>>>>> 4f3444112c09ca56c2e7e1e588f18dd0587f6c3c
+
 ##############################################################################
 # Main                                                                       #
 ##############################################################################
