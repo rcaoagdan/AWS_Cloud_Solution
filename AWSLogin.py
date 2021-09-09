@@ -16,6 +16,9 @@
 # We do not condone using this for malicious purpose, and are not responsible
 # if you are caught using our code for malicious purposes.
 
+# This code will try and brute force into the AWS Console and as as the MFA
+# Its purpose was to trigger the Login Failure.
+
 ##############################################################################
 #                               Dogma Inc.                                   #                                     
 ##############################################################################
