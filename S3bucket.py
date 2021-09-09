@@ -24,23 +24,62 @@
 # Import Library                                                             #
 ##############################################################################
 import boto3
-import logging
-from botocore.exceptions import ClientError
+import os,sys
+import awscli
+import subprocess
 
 ##############################################################################
 # Global Variables                                                           #
 ##############################################################################
-s3 = boto3.client('s3')
-buckets_found = s3.list_buckets()
+s3 = boto3.client('s3',
+                  region_name = 'us-west-1',
+                  aws_access_key_id = "AKIA3RFJD7OU7BBKAYNH",
+                  aws_secret_access_key ="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")
+
+
 ##############################################################################
 # Functions                                                                  #
 ##############################################################################
-def list_buckets():
-    print('known buckets')
-    for bucket in buckets_found:
-        print(f' {bucket["Name"]}')
+def ListBuckets():
+    print(" ")
+    bucketsFound = s3.list_buckets()['Buckets']
+    
+    for bucket in bucketsFound:
+        print(" ")
+        print('Bucket name: {}, Created on: {}'.format(bucket['Name'], bucket['CreationDate']))
+
+    print(" ")
+    s3bucket=str(input("What bucket do you want to see conents from:"))
+    for key in s3.list_objects(Bucket=s3bucket)['Contents']:
+        print(" ")
+        print ('key.name', key['Key'])
+
+ 
+
+def DownloadfrBucket():
+    print(" ")
+    DLbucket=str(input("What bucket do you want to DL from:"))
+    targetFile=str(input("What are we DL: "))
+    targetFolder=str(input("Folder: "))
+    s3.meta.client.download_file(DLbucket,targetFile,targetFolder)
 
 ##############################################################################
-# Global Variables                                                           #
+# Main                                                                       #
 ##############################################################################
-list_buckets()
+if __name__ == '__main__':
+    while True:
+        print("*" * 50)
+        print("1. List Buckets")
+        print("2: Dl Bucket")
+        print("3: Exit")
+        print("*" * 50)
+        print(" ")
+        task=input("Selection:")
+        if (task == "1"):
+            ListBuckets()
+        elif (task == "2"):
+            DownloadfrBucket()
+        elif (task == "3"):
+            break
+        else:
+            print("Invalid Selection \n")
