@@ -61,6 +61,7 @@ def ListBuckets():
 def DownloadfrBucket():
     print(" ")
     DLbucket=str(input("What bucket do you want to DL from:"))
+<<<<<<< HEAD
     targetFile=str(input("What are we DL: "))
     targetFolder=str(input("Folder: "))
     try:
@@ -69,6 +70,16 @@ def DownloadfrBucket():
         logging.errror(e)
         print ("Permission Denied")
 
+=======
+    targetbucket=s3.Bucket(DLbucket)
+    
+    for s3_object in targetbucket.objects.all():
+        targetbucket.download_file(s3_object.key, filename_with_extension)
+        path, filename = os.path.split(s3_object.key)
+        os.makedirs(path)
+        targetbucket.download_file(s3_object.key, path/filename)
+    
+>>>>>>> 4f3444112c09ca56c2e7e1e588f18dd0587f6c3c
 ##############################################################################
 # Main                                                                       #
 ##############################################################################
