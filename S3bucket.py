@@ -23,21 +23,23 @@
 ##############################################################################
 # Import Library                                                             #
 ##############################################################################
+import logging
 import boto3
-import os,sys
-import awscli
-import subprocess
+
+
+from botocore.exceptions import ClientError
 
 ##############################################################################
 # Global Variables                                                           #
 ##############################################################################
 s3 = boto3.client('s3',
                   region_name = 'us-west-1',
-                  aws_access_key_id = "AKIA3RFJD7OU7BBKAYNH",
-                  aws_secret_access_key ="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")
+                  aws_access_key_id = "AWSUSER,"
+                  aws_secret_access_key ="AWSPASS")
 
 
-##############################################################################
+########
+#######################################################################
 # Functions                                                                  #
 ##############################################################################
 def ListBuckets():
@@ -61,7 +63,11 @@ def DownloadfrBucket():
     DLbucket=str(input("What bucket do you want to DL from:"))
     targetFile=str(input("What are we DL: "))
     targetFolder=str(input("Folder: "))
-    s3.meta.client.download_file(DLbucket,targetFile,targetFolder)
+    try:
+        s3.download_file(DLbucket,targetFile,targetFolder)
+    except ClientError as e:
+        logging.errror(e)
+        print ("Permission Denied")
 
 ##############################################################################
 # Main                                                                       #
