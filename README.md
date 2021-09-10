@@ -8,13 +8,16 @@
 * [Ops 401 Midterm Project Guidelines](https://github.com/codefellows/seattle-ops-cyber-401n1/blob/main/class-20/project-guidelines.md)
 
 ## Documentation
-* [Slide Deck](https://docs.google.com/presentation/d/1YbV_sRDc0HArj8wsM8ZtLYIXoBYiwn2JtoION6wkDF0/edit?usp=sharing)
-* [TTP Attack](https://docs.google.com/presentation/d/13ueTwVkRY9m7YF0wkqy1dJJkHMXXgJ-rzk3VGOqtXVc/edit?usp=sharing)
+ [Slide Deck](https://docs.google.com/presentation/d/1YbV_sRDc0HArj8wsM8ZtLYIXoBYiwn2JtoION6wkDF0/edit?usp=sharing) | 
+ [TTP Attack](https://docs.google.com/presentation/d/13ueTwVkRY9m7YF0wkqy1dJJkHMXXgJ-rzk3VGOqtXVc/edit?usp=sharing)
 
-______
+## Policies
+[Cloud Security Policy](https://docs.google.com/document/d/1ZP2FYz1hatToDHGwbBp3bQ42x-BrPi-i_79KTrD1pqs/edit?usp=sharing) | 
+[Data Security Policy]()
+
 ## Risk Assesments
-*[Risk Assesment](https://docs.google.com/document/d/1FsKQhPpKzYhyBeib-qwyiqOgHgfY0-qu/edit)
-*[Security Assesment Report](https://docs.google.com/document/d/14Gq5aWSE1bczSKQgcCKM7lvvWEcWWgSSLWtu1pjeBLM/edit?usp=sharing)
+[Risk Assesment](https://docs.google.com/document/d/1FsKQhPpKzYhyBeib-qwyiqOgHgfY0-qu/edit) |
+[Security Assesment Report](https://docs.google.com/document/d/14Gq5aWSE1bczSKQgcCKM7lvvWEcWWgSSLWtu1pjeBLM/edit?usp=sharing)
 
 ## Project Description
 
