@@ -12,6 +12,9 @@
 * [TTP Attack](https://docs.google.com/presentation/d/13ueTwVkRY9m7YF0wkqy1dJJkHMXXgJ-rzk3VGOqtXVc/edit?usp=sharing)
 
 ______
+## Risk Assesments
+*[Risk Assesment](https://docs.google.com/document/d/1FsKQhPpKzYhyBeib-qwyiqOgHgfY0-qu/edit)
+*[Security Assesment Report](https://docs.google.com/document/d/14Gq5aWSE1bczSKQgcCKM7lvvWEcWWgSSLWtu1pjeBLM/edit?usp=sharing)
 
 ## Project Description
 
