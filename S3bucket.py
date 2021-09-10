@@ -24,27 +24,25 @@
 # Import Library                                                             #
 ##############################################################################
 import logging
-import boto3
-
-
+import boto3 # module used to create, configure and mangage AWS resources
 from botocore.exceptions import ClientError
 
 ##############################################################################
 # Global Variables                                                           #
 ##############################################################################
 s3 = boto3.client('s3',
-                  region_name = 'us-west-1',
-                  aws_access_key_id = "AWSUSER,
-                  aws_secret_access_key ="AWSPASS)
+                  region_name = 'us-west-1', # define region logging into
+                  aws_access_key_id = "AWSUSER", # known username
+                  aws_secret_access_key ="AWSPASS") # known password
 
 
-########
-#######################################################################
+
+##############################################################################
 # Functions                                                                  #
 ##############################################################################
 def ListBuckets():
     print(" ")
-    bucketsFound = s3.list_buckets()['Buckets']
+    bucketsFound = s3.list_buckets()['Buckets'] # command to list bucksts in s3
     
     for bucket in bucketsFound:
         print(" ")
@@ -52,9 +50,9 @@ def ListBuckets():
 
     print(" ")
     s3bucket=str(input("What bucket do you want to see conents from:"))
-    for key in s3.list_objects(Bucket=s3bucket)['Contents']:
+    for key in s3.list_objects(Bucket=s3bucket)['Contents']: # list object within s3 bucket
         print(" ")
-        print ('key.name', key['Key'])
+        print ('key.name', key['Key']) # Key refers to filename within bucket
 
  
 
@@ -63,7 +61,7 @@ def DownloadfrBucket():
     DLbucket=str(input("What bucket do you want to DL from:"))
     targetFile=str(input("What are we DL: "))
     targetFolder=str(input("Folder: "))
-    s3.download_file(DLbucket,targetFile,targetFolder)
+    s3.download_file(DLbucket,targetFile,targetFolder) # Download S3 bucket and file
 
 
 ##############################################################################
