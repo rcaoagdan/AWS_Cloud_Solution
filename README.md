@@ -9,7 +9,7 @@
 
 ## Documentation
  [Slide Deck](https://docs.google.com/presentation/d/1YbV_sRDc0HArj8wsM8ZtLYIXoBYiwn2JtoION6wkDF0/edit?usp=sharing) | 
- [TTP Attack](https://docs.google.com/presentation/d/13ueTwVkRY9m7YF0wkqy1dJJkHMXXgJ-rzk3VGOqtXVc/edit?usp=sharing) | [Final Report](https://docs.google.com/document/d/196uESyzNqCcGFjPFhu7nQoNPuLHFbIZnvKrvZex2YFI/edit)
+ [TTP Attack](https://docs.google.com/presentation/d/13ueTwVkRY9m7YF0wkqy1dJJkHMXXgJ-rzk3VGOqtXVc/edit?usp=sharing) | [Cloud Topology](https://drive.google.com/file/d/18Q1hXHaLPRNtIVh0XwyGt4Z5tQBLxk13/view) | [Final Report](https://docs.google.com/document/d/196uESyzNqCcGFjPFhu7nQoNPuLHFbIZnvKrvZex2YFI/edit)
 
 
 
