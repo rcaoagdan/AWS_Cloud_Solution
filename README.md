@@ -16,7 +16,7 @@
 [Data Security Policy]()
 
 ## Risk Assesments
-[Risk Assesment](https://docs.google.com/document/d/1FsKQhPpKzYhyBeib-qwyiqOgHgfY0-qu/edit) |
+[Security Archtecture Narrative](https://docs.google.com/document/d/1lH7Qm7AO3gnBNEr1KD2g86znWfj1eeFDy2pdJebhg4o/edit) | ([Risk Assesment](https://docs.google.com/document/d/1FsKQhPpKzYhyBeib-qwyiqOgHgfY0-qu/edit) |
 [Security Assesment Report](https://docs.google.com/document/d/14Gq5aWSE1bczSKQgcCKM7lvvWEcWWgSSLWtu1pjeBLM/edit?usp=sharing)
 
 ## Project Description
